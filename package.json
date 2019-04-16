@@ -1,0 +1,25 @@
+{
+  "name": "prime_faces_react_todo_sample",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@webcodesk/react-scripts": "2.1.9",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "scripts": {
+    "start": "cross-env NODE_PATH=./src react-scripts start",
+    "build": "cross-env NODE_PATH=./src react-scripts build",
+    "test": "react-scripts test --modulePaths=src",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
