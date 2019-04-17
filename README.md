@@ -38,7 +38,7 @@
 4. Close `Market` and find installed components in the `layouts` dir.
 
 <p style="text-align: center">
-<img src="/img/pic3.jpg" />
+<img src="/img/pic4.jpg" />
 </p>
 
 5. Open `Market` again
