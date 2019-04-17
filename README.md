@@ -1,6 +1,6 @@
 # A sample of the ToDo application with the FullCalendar component
 
-**This project is an example of the Single-page Web application with React components tailored for the [Webcodesk](https://webcodesk.com) market** 
+**This project is an example of the Single-page Web application with React components tailored for the [Webcodesk](https://webcodesk.com)** 
 
 ## Specification
 
@@ -15,12 +15,16 @@
  * open project's directory in [Webcodesk](https://webcodesk.com)
 
 
-## How to use components in your project
+## How to use components in your project - building instruction
 
-#### Installation
+1. Open Market
 
-* Open market search in Webcodesk.
-* Find any component by project's tags.
-* Open component details (click on it).
-* Select `todo` group and install it.
+<p style="text-align: center">
+<img src="/img/pic1.png" />
+</p>
 
+2. Find absolute layouts components
+
+<p style="text-align: center">
+<img src="/img/pic2.png" />
+</p>
