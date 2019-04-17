@@ -4,6 +4,7 @@ import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
 import { Button } from 'primereact/button';
 import { TabMenu } from 'primereact/tabmenu';
+import './commons/includes';
 import { LIST_FILTER_ALL, LIST_FILTER_IN_PROGRESS } from './commons/constants';
 import s from './ToDoList.module.css';
 import LoadingOverlay from './LoadingOverlay';

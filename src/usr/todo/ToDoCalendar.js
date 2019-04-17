@@ -2,6 +2,8 @@ import '@fullcalendar/core/main.css';
 import '@fullcalendar/daygrid/main.css';
 import '@fullcalendar/timegrid/main.css';
 
+import './commons/includes';
+
 import React from 'react';
 import PropTypes from 'prop-types';
 import { FullCalendar } from 'primereact/fullcalendar';

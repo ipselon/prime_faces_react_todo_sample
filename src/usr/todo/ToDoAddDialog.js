@@ -4,6 +4,7 @@ import { Dialog } from 'primereact/dialog';
 import { Button } from 'primereact/button';
 import { InputText } from 'primereact/inputtext';
 
+import './commons/includes';
 /*
 
   A dialog used to add the new to-do item.
