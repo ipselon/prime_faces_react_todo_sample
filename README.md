@@ -17,14 +17,45 @@
 
 ## How to use components in your project - building instruction
 
-1. Open Market
+1. Run Webcodesk and open `Market`
 
 <p style="text-align: center">
 <img src="/img/pic1.png" />
 </p>
 
-2. Find absolute layouts components
+2. Find `Absolute_Layouts` components: `LeftSideSplitterLayout`, `RightSideSplitterLayout`, `TopToolbarLayout`
 
 <p style="text-align: center">
 <img src="/img/pic2.png" />
 </p>
+
+3. Install each of them into `layouts` directory
+
+<p style="text-align: center">
+<img src="/img/pic3.png" />
+</p>
+
+4. Close `Market` and find installed components in the `layouts` dir.
+
+<p style="text-align: center">
+<img src="/img/pic3.png" />
+</p>
+
+5. Open `Market` again
+
+<p style="text-align: center">
+<img src="/img/pic1.png" />
+</p>
+
+6. Find `ToDo_List` components
+
+<p style="text-align: center">
+<img src="/img/pic5.png" />
+</p>
+
+7. Install each of them into `todo` directory
+
+<p style="text-align: center">
+<img src="/img/pic6.png" />
+</p>
+
