@@ -2,10 +2,25 @@
   "name": "prime_faces_react_todo_sample",
   "version": "0.1.0",
   "private": true,
+  "repository": {
+    "url": "https://github.com/ipselon/prime_faces_react_todo_sample"
+  },
+  "license": "MIT",
   "dependencies": {
+    "@fullcalendar/core": "^4.0.2",
+    "@fullcalendar/daygrid": "^4.0.1",
+    "@fullcalendar/interaction": "^4.0.2",
+    "@fullcalendar/timegrid": "^4.0.1",
     "@webcodesk/react-scripts": "2.1.9",
+    "classnames": "^2.2.6",
+    "localforage": "^1.7.3",
+    "lodash": "^4.17.11",
+    "primeicons": "^1.0.0",
+    "primereact": "^3.1.2",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-split-pane": "0.1.87",
+    "react-transition-group": "^3.0.0"
   },
   "scripts": {
     "start": "cross-env NODE_PATH=./src react-scripts start",

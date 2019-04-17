@@ -1,27 +1,26 @@
-# Building Instructions
+# A sample of the ToDo application with the FullCalendar component
 
-> If you want to try the sample application, open live demo. 
+**This project is an example of the Single-page Web application with React components tailored for the [Webcodesk](https://webcodesk.com) market** 
 
-> If you want to see how the sample application is built, 
-> * clone this project: `git clone https://github.com/ipselon/prime_faces_react_todo_sample.git`
-> * install dependencies in the project's directory: `yarn install`
-> * open project's directory in [Webcodesk](https://webcodesk.com)
+## Specification
 
-### Specification
+* Used libs: [PrimeReact](https://primefaces.org/primereact)
+* Search tags: `PrimeReact`, `To-Do_List`, `FullCalendar`
+* Address on the market: []() 
+* Live demo: [prime-faces-react-todo-sample.firebaseapp.com](https://prime-faces-react-todo-sample.firebaseapp.com/);
+ 
+#### Open the project in Webcodesk:
+ * clone this project: `git clone https://github.com/ipselon/prime_faces_react_todo_sample.git`
+ * install dependencies in the project's directory: `yarn install`
+ * open project's directory in [Webcodesk](https://webcodesk.com)
 
-* UI kit: **[PrimeReact](https://primefaces.org/primereact)**
-* Search tags on [the market](https://webcodeks.com/app): `PrimeReact`, `ToDo_Sample`, `FullCalendar`
-* Live demo: []();
 
-### Steps to build
-
+## How to use components in your project
 
 #### Installation
 
-* Open market search
-* Find any component by project's tags
-* Open component
-* Select `layouts` group and install it
-* Select `todo` group and install it
-
+* Open market search in Webcodesk.
+* Find any component by project's tags.
+* Open component details (click on it).
+* Select `todo` group and install it.
 

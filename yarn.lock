@@ -767,6 +767,24 @@
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
 
+"@fullcalendar/core@^4.0.2":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@fullcalendar/core/-/core-4.0.2.tgz#59ef822ba0c4bda60609d8b2d9f71bee8875505b"
+
+"@fullcalendar/daygrid@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@fullcalendar/daygrid/-/daygrid-4.0.1.tgz#383bfd51dd55bbec2ccc90926e9dbdf710aa3789"
+
+"@fullcalendar/interaction@^4.0.2":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@fullcalendar/interaction/-/interaction-4.0.2.tgz#8459f3d89f9e0e56405e35c25513edf573e5a096"
+
+"@fullcalendar/timegrid@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@fullcalendar/timegrid/-/timegrid-4.0.1.tgz#26454567a256af70b2aa6dae7f6351d0c0a92a32"
+  dependencies:
+    "@fullcalendar/daygrid" "^4.0.1"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -2066,6 +2084,10 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
+classnames@^2.2.6:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
+
 clean-css@4.2.x:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-4.2.1.tgz#2d411ef76b8569b6d0c84068dabe85b0aa5e5c17"
@@ -2800,6 +2822,12 @@ dom-converter@^0.2:
   resolved "https://registry.yarnpkg.com/dom-converter/-/dom-converter-0.2.0.tgz#6721a9daee2e293682955b6afe416771627bb768"
   dependencies:
     utila "~0.4"
+
+dom-helpers@^3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/dom-helpers/-/dom-helpers-3.4.0.tgz#e9b369700f959f62ecde5a6babde4bccd9169af8"
+  dependencies:
+    "@babel/runtime" "^7.1.2"
 
 dom-serializer@0:
   version "0.1.1"
@@ -4121,6 +4149,10 @@ ignore@^4.0.6:
   version "4.0.6"
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-4.0.6.tgz#750e3db5862087b4737ebac8207ffd1ef27b25fc"
 
+immediate@~3.0.5:
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/immediate/-/immediate-3.0.6.tgz#9db1dbd0faf8de6fbe0f5dd5e56bb606280de69b"
+
 immer@1.10.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/immer/-/immer-1.10.0.tgz#bad67605ba9c810275d91e1c2a47d4582e98286d"
@@ -5159,6 +5191,12 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
+lie@3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/lie/-/lie-3.1.1.tgz#9a436b2cc7746ca59de7a41fa469b3efb76bd87e"
+  dependencies:
+    immediate "~3.0.5"
+
 load-json-file@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/load-json-file/-/load-json-file-1.1.0.tgz#956905708d58b4bab4c2261b04f59f31c99374c0"
@@ -5196,6 +5234,12 @@ loader-utils@1.2.3, loader-utils@^1.0.1, loader-utils@^1.0.2, loader-utils@^1.1.
     big.js "^5.2.2"
     emojis-list "^2.0.0"
     json5 "^1.0.1"
+
+localforage@^1.7.3:
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/localforage/-/localforage-1.7.3.tgz#0082b3ca9734679e1bd534995bdd3b24cf10f204"
+  dependencies:
+    lie "3.1.1"
 
 locate-path@^2.0.0:
   version "2.0.0"
@@ -6783,6 +6827,14 @@ pretty-format@^23.6.0:
     ansi-regex "^3.0.0"
     ansi-styles "^3.2.0"
 
+primeicons@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/primeicons/-/primeicons-1.0.0.tgz#90061f168ef6227f21f0a7db8204ffa85cd27aec"
+
+primereact@^3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/primereact/-/primereact-3.1.2.tgz#d5866515268618039f1a960734195073d8ac1269"
+
 private@^0.1.6, private@^0.1.8:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/private/-/private-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"
@@ -6823,7 +6875,7 @@ prop-types@15.6.2:
     loose-envify "^1.3.1"
     object-assign "^4.1.1"
 
-prop-types@^15.6.1, prop-types@^15.6.2:
+prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.6.1, prop-types@^15.6.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   dependencies:
@@ -7017,7 +7069,7 @@ react-dev-utils@^8.0.0:
     strip-ansi "5.0.0"
     text-table "0.2.0"
 
-react-dom@16.8.6:
+react-dom@^16.8.6:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.8.6.tgz#71d6303f631e8b0097f56165ef608f051ff6e10f"
   dependencies:
@@ -7038,7 +7090,7 @@ react-is@^16.8.1:
   version "16.8.4"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.4.tgz#90f336a68c3a29a096a3d648ab80e87ec61482a2"
 
-react-lifecycles-compat@^3.0.0:
+react-lifecycles-compat@^3.0.0, react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
 
@@ -7077,7 +7129,30 @@ react-router@^4.3.1:
     prop-types "^15.6.1"
     warning "^4.0.1"
 
-react@16.8.6:
+react-split-pane@0.1.87:
+  version "0.1.87"
+  resolved "https://registry.yarnpkg.com/react-split-pane/-/react-split-pane-0.1.87.tgz#a7027ae554abfacca35f5f780288b07fe4ec4cbd"
+  dependencies:
+    prop-types "^15.5.10"
+    react-lifecycles-compat "^3.0.4"
+    react-style-proptype "^3.0.0"
+
+react-style-proptype@^3.0.0:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/react-style-proptype/-/react-style-proptype-3.2.2.tgz#d8e998e62ce79ec35b087252b90f19f1c33968a0"
+  dependencies:
+    prop-types "^15.5.4"
+
+react-transition-group@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-3.0.0.tgz#36efa4db970d5eec5e3028e0c458931163fa3b9b"
+  dependencies:
+    dom-helpers "^3.4.0"
+    loose-envify "^1.4.0"
+    prop-types "^15.6.2"
+    react-lifecycles-compat "^3.0.4"
+
+react@^16.8.6:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react/-/react-16.8.6.tgz#ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe"
   dependencies:

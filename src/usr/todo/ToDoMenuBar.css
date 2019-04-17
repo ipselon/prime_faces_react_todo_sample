@@ -1,0 +1,3 @@
+.p-menubar .p-menubar-root-list > li ul {
+  z-index: 10;
+}

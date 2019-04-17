@@ -1,2 +1,2 @@
 
-export default {};
+export default {"type":"usr.application.layouts.TopToolbarLayout","instance":"topToolbarLayout","props":{"content":{"type":"usr.application.layouts.LeftSideSplitterLayout","instance":"leftSideSplitterLayout","props":{"right":{"type":"usr.todo.ToDoCalendar","instance":"toDoCalendar","props":{}},"left":{"type":"usr.todo.ToDoList","instance":"toDoList","props":{"addNewItemDialog":{"type":"usr.todo.ToDoAddDialog","instance":"toDoAddDialog","props":{}}}}}},"top":{"type":"usr.todo.ToDoMenuBar","instance":"toDoMenuBar","props":{}}}};
