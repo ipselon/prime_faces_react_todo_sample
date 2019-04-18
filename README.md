@@ -1,12 +1,12 @@
 # A sample of the ToDo application with the FullCalendar component
 
-**This project is an example of the Single-page Web application with React components tailored for the [Webcodesk](https://webcodesk.com)** 
+**This project is an example of the Single Page Web application with React components tailored for the [Webcodesk](https://webcodesk.com)** 
 
 ## Specification
 
 * Used libs: [PrimeReact](https://primefaces.org/primereact)
-* Search tags: `PrimeReact`, `To-Do_List`, `FullCalendar`
-* Address on the market: [prime_faces_react_todo_sample](https://webcodesk.com/app/project?projectId=7) 
+* Search tags on the market: `PrimeReact`, `To-Do_List`, `FullCalendar`
+* Url on the market: [prime_faces_react_todo_sample](https://webcodesk.com/app/project?projectId=7) 
 * Live demo: [prime-faces-react-todo-sample.firebaseapp.com](https://prime-faces-react-todo-sample.firebaseapp.com/);
  
 #### Open the project in Webcodesk:
@@ -73,7 +73,7 @@
 <img src="/img/pic8.jpg" />
 </p>
 
-10. Open `Structure` in the page editor and drag and drop `TopToolbarLayout` to root element on the page
+10. Open `Structure` in the page editor and drag and drop `TopToolbarLayout` to the root element on the page
 
 <p style="text-align: center">
 <img src="/img/pic9.jpg" />
@@ -115,7 +115,8 @@
 <img src="/img/pic14.jpg" />
 </p>
 
-17. Drop `toDoCalendar` onto the `Application` element. Add `startAddNewToDoItem`, and two `toDoAddDialog` to the flow. Connect them.
+17. Drop `toDoCalendar` onto the `Application` element. Add `startAddNewToDoItem`, and two `toDoAddDialog` to the flow. 
+Connect them all as shown on the picture.
 
 <p style="text-align: center">
 <img src="/img/pic15.jpg" />
@@ -127,7 +128,8 @@
 <img src="/img/pic16.jpg" />
 </p>
 
-19. Add `addNewToDoItem`, `stopAddNewToDoItem`, `toDoAddDialog`, `toDoList`, and `toDoCalendar` to the flow. Connect them.
+19. Add `addNewToDoItem`, `stopAddNewToDoItem`, `toDoAddDialog`, `toDoList`, and `toDoCalendar` to the flow. 
+Connect them all as shown on the picture.
 
 <p style="text-align: center">
 <img src="/img/pic17.jpg" />
@@ -140,7 +142,7 @@
 </p>
 
 21. Set `toDoList` instead of `Application` (drop on it), then add `toggleToDoItemDone`, `toDoCalendar`, and again `toDoList` to the flow. 
-Connect them all as it is on the picture.
+Connect them all as shown on the picture.
 
 <p style="text-align: center">
 <img src="/img/pic19.jpg" />
@@ -153,7 +155,7 @@ Connect them all as it is on the picture.
 </p>
 
 23. Set `toDoList` instead of `Application`, then add `deleteToDoItem`, `toDoCalendar`, and again `toDoList` to the flow. 
-Connect them all as it is on the picture. 
+Connect them all as shown on the picture. 
 
 <p style="text-align: center">
 <img src="/img/pic21.jpg" />
@@ -166,7 +168,7 @@ Connect them all as it is on the picture.
 </p>
 
 25. Set `toDoList` instead of `Application`, then add `selectListItem`, `toDoCalendar`, and again `toDoList` to the flow. 
-Connect them all as it is on the picture. 
+Connect them all as shown on the picture. 
 
 <p style="text-align: center">
 <img src="/img/pic23.jpg" />
@@ -179,7 +181,7 @@ Connect them all as it is on the picture.
 </p>
 
 27. Set `toDoCalendar` instead of `Application`, then add `selectCalendarEvent`, `toDoCalendar`, and `toDoList` to the flow. 
-Connect them all as it is on the picture. 
+Connect them all as shown on the picture. 
 
 <p style="text-align: center">
 <img src="/img/pic25.jpg" />
@@ -192,7 +194,7 @@ Connect them all as it is on the picture.
 </p>
 
 29. Set `toDoCalendar` instead of `Application`, then add `changeCalendarEvent`, `toDoCalendar`, and `toDoList` to the flow. 
-Connect them all as it is on the picture. 
+Connect them all as shown on the picture. 
 
 <p style="text-align: center">
 <img src="/img/pic27.jpg" />
@@ -205,7 +207,7 @@ Connect them all as it is on the picture.
 </p>
 
 31. Set `toDoList` instead of `Application`, then add `saveListFilter`, `getEvents`, `toDoCalendar`, and two `toDoList` to the flow. 
-Connect them all as it is on the picture. 
+Connect them all as shown on the picture. 
 
 <p style="text-align: center">
 <img src="/img/pic29.jpg" />
@@ -217,4 +219,11 @@ Connect them all as it is on the picture.
 <img src="/img/pic30.jpg" />
 </p>
 
+32. You can build the application bundle from the command line. 
+Go to the project's directory, and run in the command line following command:
 
+```    
+ yarn build
+```
+
+After the build process is finished successfully, you can find the application bundle in the `build` folder.
