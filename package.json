@@ -14,7 +14,7 @@
     "@webcodesk/react-scripts": "2.1.9",
     "classnames": "^2.2.6",
     "localforage": "^1.7.3",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "primeicons": "^1.0.0",
     "primereact": "^3.1.2",
     "react": "^16.8.6",
